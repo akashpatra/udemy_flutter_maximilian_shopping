@@ -28,7 +28,7 @@ class CartItem extends StatelessWidget {
       ),
       direction: DismissDirection.endToStart,
       confirmDismiss: (direction) {
-     return showDialog(
+        return showDialog(
           context: context,
           builder: (ctx) => AlertDialog(
             title: Text('Are you sure ?'),
